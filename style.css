@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #1f1f1f;
+}
+
+.profile-img {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #f0f0f0;
+}
+
+.about, .projects {
+    margin-top: 40px;
+}
+
+.project {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    margin-top: 40px;
+}
