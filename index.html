@@ -1,60 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Giorgi Razmadze - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      background: #f4f4f4;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin-top: 0;
-    }
-    img {
-      max-width: 150px;
-      border-radius: 100px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giorgi Razmadze – Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 1rem;
+            object-fit: cover;
+        }
+        section {
+            padding: 2rem;
+        }
+        h2 {
+            color: #007acc;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <img src="your-photo.jpg" alt="Profile Photo">
-    <h1>Giorgi Razmadze</h1>
-    <p><strong>Role:</strong> DevOps Engineer | UX Researcher</p>
-    <p><strong>Email:</strong> giorgi.razmadze@example.com</p>
+    <header>
+        <h1>Giorgi Razmadze</h1>
+        <p>DevOps Engineer & UX Researcher</p>
+        <img src="profile.jpg" alt="Profile Photo" class="profile">
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I am a DevOps engineer and UX researcher with a strong background in both infrastructure automation and user-centric design. Passionate about building scalable systems and ensuring exceptional user experiences.</p>
+        </section>
 
-    <h2>About Me</h2>
-    <p>
-      I'm a dedicated DevOps engineer with experience in infrastructure automation, container orchestration, and monitoring solutions. 
-      I also lead UX research projects to help teams deliver intuitive and user-friendly applications.
-    </p>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Docker, Kubernetes, CI/CD</li>
+                <li>Linux, Git, Bash & Python scripting</li>
+                <li>UX Research – Usability Testing, Tree Testing, Card Sorting</li>
+                <li>Tools: Figma, Medallia, Jira, Confluence</li>
+            </ul>
+        </section>
 
-    <h2>Skills</h2>
-    <ul>
-      <li>Linux, Docker, Git, Bash, Python</li>
-      <li>CI/CD (GitLab, Jenkins)</li>
-      <li>Kubernetes, Terraform, Ansible</li>
-      <li>UX Research, Usability Testing, Card Sorting</li>
-    </ul>
+        <section>
+            <h2>Projects</h2>
+            <p><strong>TBC Mobile Onboarding Research</strong> – Led usability tests and improved first-time user success rate by 35%.</p>
+            <p><strong>Infrastructure as Code for Microservices</strong> – Automated deployment pipelines using GitLab CI and Terraform.</p>
+        </section>
 
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Onboarding Usability Testing</strong> – Improved user conversion by 30% through research-based onboarding redesign.</li>
-      <li><strong>DevOps CI/CD Pipelines</strong> – Built and maintained scalable CI/CD pipelines across microservices architecture.</li>
-    </ul>
-  </div>
+        <section>
+            <h2>Contact</h2>
+            <p>Email: giorgi@example.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/giorgirazmadze" target="_blank">linkedin.com/in/giorgirazmadze</a></p>
+        </section>
+    </div>
 </body>
 </html>
